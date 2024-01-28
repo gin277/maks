@@ -1,0 +1,60 @@
+.surveillanceCameras-container {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.surveillanceCameras-logo {
+  padding-top: 13px;
+}
+
+.button-container-therePage {
+  display: flex;
+  height: 43px;
+  padding-left: 300px;
+  gap: 70px;
+
+  .button-text,
+  .button-text-active,
+  .button-text-nonactive {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .button-text-nonactive {
+    color: var(--text, #394639);
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .button-text-active {
+    border-radius: 0px 12px;
+    border: 1px solid var(--border-color, #adebd5);
+    background: var(--background-color, #adebd5);
+  }
+}
+
+.homeCam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeCam img {
+  max-width: 100%; /* Чтобы изображение не выходило за пределы блока */
+  max-height: 100%; /* Чтобы изображение не выходило за пределы блока */
+}
+
+.card-container {
+  padding-top: 15px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}

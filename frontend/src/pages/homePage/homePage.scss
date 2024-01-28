@@ -1,0 +1,30 @@
+.second-block {
+  width: auto;
+  height: 100px;
+  background-color: rgba(153, 153, 153, 0.75);
+}
+
+.text {
+  color: var(--text, #394639);
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-left: 120px;
+}
+
+.line {
+  width: 400px;
+  height: 1px;
+  background: #394639;
+  padding-left: 120px;
+}
+
+.vert-line {
+  width: 1px;
+  height: 190px;
+  background: var(--text, #000);
+  margin-left: 1235px;
+}
